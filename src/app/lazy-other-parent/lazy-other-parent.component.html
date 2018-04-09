@@ -1,0 +1,9 @@
+<h1>I'm a Lazy other Component. Meet all my lazy children...</h1>
+
+<div *ngFor="let name of ['other Foo', 'other Bar', 'other Baz']">
+
+  <p>Hi, my name is {{name}}. I'm a lazy other child component.</p>
+
+  <app-lazy-other-child></app-lazy-other-child>
+
+</div>
