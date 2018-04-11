@@ -3,7 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   { path: 'lazy', loadChildren: './lazy.module#LazyModule' },
-  { path: 'lazy', loadChildren: './lazy.module#OtherLazyModule' }
+  { path: 'lazy', loadChildren: './lazy.module#OtherLazyModule' },
+  { path: 'lazy', loadChildren: './lazy.module#HangoutChatModule' }
 ];
 
 @NgModule({

@@ -1,0 +1,11 @@
+<div class="chat-window">
+  <div class="header">
+    <p>Milad</p>
+  </div>
+  <div class="messages-container">
+    <div *ngFor="let message of messages">{{message}}</div>
+  </div>
+  <div class="footer">
+    <input id="message" type="text" placeholder="Write your message here..." (keyup.enter)="send($event)"/>
+  </div>
+</div>

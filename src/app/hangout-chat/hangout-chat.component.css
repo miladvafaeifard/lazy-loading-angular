@@ -1,0 +1,50 @@
+.chat-window {
+  position: fixed;
+  width: 200px;
+  height: 300px;
+  right: 20px;
+  bottom: 0;
+  border: 1px solid black;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  border-bottom: 1px solid black;
+}
+
+.header p {
+  padding-left: 14px;
+}
+
+.messages-container {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  top: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid black;
+}
+
+.footer input {
+  padding: 5px 27px 26px 0;
+  position: absolute;
+  float: left;
+}
+
+.footer div {
+  background-color: blue;
+  color: white;
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.header, .footer {
+  width: 100%;
+  height: 50px;
+}
